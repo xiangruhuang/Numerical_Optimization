@@ -1,0 +1,9 @@
+Readme
+
+To start the experiment just type 'main' in matlab command line.
+
+You can change the parameter in 'Parameter Setting' part.
+
+In our experiment, we use three different methods: gradient descend with fix step, alternating minimization and trust region.
+
+We give one plot for our experiment comparing this three methods. Basically, alternating minimization work best, and converge fastest. Trust Region methods converges faster than gradient descend but not as fast as alternating minimization. However, Trust Region methods takes much more time than the other two methods. Maybe next time we need to try an approximate for subproblem.
